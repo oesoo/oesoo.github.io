@@ -2,10 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://oesoo.github.io/</loc>
-    <lastmod>2026-11-01</lastmod>
+    <lastmod>2026-11-05</lastmod>
   </url>
   <url>
     <loc>https://oesoo.github.io/press/</loc>
     <lastmod>2026-11-01</lastmod>
+  </url>
+  <url>
+    <loc>https://oesoo.github.io/notes/geo/</loc>
+    <lastmod>2026-11-05</lastmod>
+  </url>
+  <url>
+    <loc>https://oesoo.github.io/notes/brochure/</loc>
+    <lastmod>2026-11-05</lastmod>
   </url>
 </urlset>
