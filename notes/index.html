@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
 <title>실무 노트 — 전외수 (Oesoo Jeon)</title>
 <meta name="description" content="1인 마컴의 실무 재설계. 기획부터 제작까지 혼자 하는 14년 차 B2B 브랜드 마케터의 기록 전체 목록.">
 <link rel="canonical" href="https://oesoo.github.io/notes/">
@@ -34,7 +37,7 @@
 }
 </script>
 <style>
-:root { --paper:#F6F7F8; --ink:#15181C; --graphite:#59616B; --rule:#D6DBE0; --link:#1E5AA8; --tint:#E6EEF8; --font:"IBM Plex Sans KR","Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif; }
+:root { --paper:#F6F7F8; --ink:#15181C; --graphite:#59616B; --rule:#D6DBE0; --link:#1E5AA8; --tint:#E6EEF8; --font:"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif; --font-display:"IBM Plex Sans KR","Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",sans-serif; }
 @media (prefers-color-scheme: dark) { :root { --paper:#121417; --ink:#E9ECEF; --graphite:#9AA3AD; --rule:#2A2F35; --link:#8DB9F2; --tint:#1B2738; } }
 * { box-sizing:border-box; }
 body { margin:0; background:var(--paper); color:var(--ink); font-family:var(--font); font-size:17px; line-height:1.8; word-break:keep-all; overflow-wrap:anywhere; }
@@ -54,6 +57,7 @@ main { max-width:56rem; }
 .notelist a:hover { color:var(--link); text-decoration-color:currentColor; }
 .notelist .meta { font-size:14px; color:var(--graphite); text-align:right; }
 @media (max-width:760px) { .notelist li { grid-template-columns:minmax(0,1fr); gap:0; } .notelist .meta { text-align:left; } }
+h1, h2, h3, .romanized { font-family: var(--font-display); }
 </style>
 </head>
 <body>
